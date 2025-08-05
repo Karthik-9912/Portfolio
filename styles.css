@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(./wp3285866.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    color: white;
+    height: 50px;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-nav{
+    /* border: 2px solid; */
+    margin-right: 10px;
+}
+.left-nav a{
+    text-decoration: none;
+    /* border: 2px solid; */
+    color: white;
+    padding: 0 5px;
+}
+.left-nav a:hover{
+    text-decoration: underline;
+}
+
+.right-nav a{
+    color: white;
+    text-decoration: none;
+}
+.right-nav .flask-icon:hover,.menu-icon:hover{
+    background-color: rgba(255, 253, 253, 0.151);
+    border-radius: 50%;
+}
+.right-nav .dp-icon:hover{
+    background-color: rgba(255, 253, 253, 0.151);
+    border-radius: 50%;
+}
+
+nav .right-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.img-icon{
+    font-size: 32px;
+    padding: 0 3px;
+}
+.flask-icon, .menu-icon{
+    /* background-color: red;
+    border-radius: 50%; */
+    font-size: 20px;
+    padding: 8px;
+}
+.flask-icon,.menu-icon,.img-icon{
+    margin: 0 5px;
+    /* border-radius: 50%; */
+}
+.right-nav-img{
+    border-radius: 50%;
+}
+
+
+main{
+    height: 180px;
+    /* border: 2px solid; */
+    font-family: "Sansation",sans-serif;
+    color: white;
+}
+
+main>div{
+    /* border: 2px solid white; */
+    height: 180px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+main h1{
+    font-size: 64px;
+}
+main p{
+    font-size: 17.5px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.sec1{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inp-search{
+    height: 100px;
+    width: 800px;
+    border: 2px solid;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    left: 0;
+}
+
+.inp-search input{
+    width: 750px;
+    height: 48px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 1px 87px 1px 52px;
+}
+
+.sec1 input:focus::placeholder{
+    color: transparent;
+}
+.sec1 input:focus{
+    outline: none;
+    border: none;
+}
+
+.sec1 i{
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    left: 40px;
+    top: 38px;
+}
